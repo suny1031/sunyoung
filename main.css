@@ -1,0 +1,34 @@
+#wrap{
+  background-color: rgb(43, 46, 51) ;
+  display: flex;
+  justify-content: center
+}
+
+
+#mainWrap{
+    margin-top: 50px;
+    width: 80%;
+    height: 500vh;
+    background-color: white;
+    border-radius: 13px;
+}
+
+.title{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#imgWrap{
+    display: flex;
+    justify-content: center;
+}
+
+.iconImg{
+    font-size: 35px;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
