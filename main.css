@@ -44,3 +44,13 @@
     font-size: 25px;
     font-weight: bold;
 }
+
+
+#stackWrap{
+    display: flex;
+    justify-content: space-between;
+}
+.stackBr{
+    border: solid 1px;
+    border-bottom: black;
+}
