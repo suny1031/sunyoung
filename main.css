@@ -47,10 +47,19 @@
 
 
 #stackWrap{
-    display: flex;
-    justify-content: space-between;
 }
+
+
+
+
 .stackBr{
     border: solid 1px;
-    border-bottom: black;
+    border-bottom: rgb(102, 102, 102);
+}
+
+#javaSImg{
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
 }
