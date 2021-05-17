@@ -57,9 +57,9 @@
     border-bottom: rgb(102, 102, 102);
 }
 
-#javaSImg{
-    width: 30px;
-    height: 30px;
+.stackImg{
+    width: 100px;
+    height: 100px;
     background-position: center;
     background-size: cover;
 }
