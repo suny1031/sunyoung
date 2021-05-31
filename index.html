@@ -26,6 +26,10 @@
             <div>안녕하세요. 주니어 Back-End 개발자 박선영입니다.</div>
             <div>항상 새로운 기술에 적극적으로 도전합니다.</div>
             <div>주로 JAVA를 사용하여 개발하는것을 좋아합니다.</div>
+            <SPAN style=" color: blue;" id="typing">
+
+            </span>
+
         </div>
         <div id="stackWrap">
             <div>Back-End Stack</div>
@@ -66,5 +70,27 @@
         </div>
     </div>
 </body>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script
+    src="https://www.cssscript.com/demo/simple-typewriter-effect-pure-javascript-typewriterjs/typewriter.js"></script>
+
+<script>
+
+    var typing = document.getElementById('typing');
+
+    var typewriter = new Typewriter(typing, {
+        loop: true
+    });
+
+    typewriter.typeString('박선영')
+        .pauseFor(2500)
+        .deleteAll()
+        .typeString('朴善英')
+        .pauseFor(2500)
+        .deleteChars(7)
+        .typeString('park sun young')
+        .start();
+</script>
 
 </html>
